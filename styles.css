@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e68c; /* Amarelo country */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8b4513; /* Marrom country */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.destaque {
+    background-color: #f0e68c; /* Amarelo country */
+    padding: 20px;
+    margin: 20px;
+}
+
+.destaque h2 {
+    font-size: 24px;
+    color: #8b4513; /* Marrom country */
+}
+
+.destaque a {
+    background-color: #8b4513; /* Marrom country */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.destaque a:hover {
+    background-color: #cd853f; /* Mais claro marrom country */
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contato {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    max-width: 500px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.contato h2 {
+    font-size: 24px;
+    color: #8b4513; /* Marrom country */
+}
+
+.contato label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+.contato button {
+    background-color: #8b4513; /* Marrom country */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contato button:hover {
+    background-color: #cd853f; /* Mais claro marrom country */
+}
+
+footer {
+    background-color: #8b4513; /* Marrom country */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
